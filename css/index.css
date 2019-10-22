@@ -206,6 +206,10 @@ body{
     background-size: cover;
 }
 
+.icon-github{
+    background: url('../icons/icon-github.png') center center;
+    background-size: cover;
+}
 /* Media Queries */
 
 @media only screen and (max-width:920px){
