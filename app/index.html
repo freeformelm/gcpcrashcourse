@@ -22,6 +22,15 @@
     <!-- Adding PWA Capabilities -->
     <link rel="manifest" href="manifest.json">
 
+    <style>
+        #gits{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            height: 64px;
+    }
+    </style>
+
     <script>
         if('serviceWorker' in navigator) {
           navigator.serviceWorker.register('js/sw.js')
@@ -159,9 +168,10 @@
             </div>
             
         </div>
-
+        <div>
+            <img src="../icons/icon-github.png" alt="git" id="gits">    
+        </div>       
     </div>
-
 
 </body>
 </html>
